@@ -1,0 +1,38 @@
+/*
+Theme Name: Eatery Danika Enad
+Author: danika enad
+Description: Theme for learning custom post types and custom fields
+Version: 1.3
+Requires at least: 5.0
+Tested up to: 5.4
+Requires PHP: 7.0
+License: GNU General Public License v2 or later
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
+Text Domain: eatery-de
+This theme, like WordPress, is licensed under the GPL.
+Use it to make something cool, have fun, and share what you've learned with others.
+*/
+
+
+/* VARIABLES =========================== */
+@import "variables/variables";
+
+/* RESET =========================== */
+@import "reset/reset";
+
+/* MEDIA =========================== */
+@import "media/media";
+
+/* TYPOGRAPHY =========================== */
+@import "typography/typography";
+
+/* NAVIGATION =========================== */
+@import "navigation/navigation";
+
+/* SITE-LAYOUT =========================== */
+@import "site-layout/front-page";
+@import "site-layout/single-page";
+
+/* FORMS =========================== */
+@import "forms/forms";
+

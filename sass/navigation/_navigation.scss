@@ -1,0 +1,73 @@
+#menu-main-menu, #menu-social-menu, #menu-social-menu-1 {
+    list-style-type: none;
+    padding-inline-start: 0;
+}
+
+#menu-main-menu li a, #menu-social-menu li a, #menu-social-menu-1 li a {
+    text-decoration: none;
+    color: $font_color_dark;
+}
+
+#menu-social-menu li a span, #menu-social-menu-1 li a span {
+    clip: rect(0 0 0 0);
+    clip-path: inset(50%);
+    height: 1px;
+    overflow: hidden;
+    position: absolute;
+    white-space: nowrap;
+    width: 1px;
+}
+
+#menu-main-menu li a:hover, #menu-social-menu li a:hover, #menu-social-menu-1 li a:hover  {
+    color: $font_color_hover;
+}
+
+#menu-main-menu, #menu-social-menu {
+    display: flex;
+    gap: 1rem;
+    justify-content: flex-end;
+    padding-right: 1rem;
+    font-size: 1.25rem;
+}
+
+#menu-social-menu li:nth-of-type(1)::before, #menu-social-menu-1 li:nth-of-type(1)::before {
+    content: "\f099";
+}
+
+#menu-social-menu li:nth-of-type(2)::before, #menu-social-menu-1 li:nth-of-type(2)::before {
+    content: "\f09a";
+}
+
+#menu-social-menu li:nth-of-type(3)::before, #menu-social-menu-1 li:nth-of-type(3)::before {
+    content: "\f16d";
+}
+
+#menu-social-menu li:nth-of-type(4)::before, #menu-social-menu-1 li:nth-of-type(4)::before {
+    content: "\f0d2";
+}
+
+
+#menu-social-menu-1 {
+    display: flex;
+    gap: 1rem;
+    justify-content: center;
+}
+
+.site-footer {
+    display: flex;
+    flex-flow: column nowrap;
+    gap: 2rem;
+    justify-content: center;
+    align-items: center;
+    padding: 2rem;
+
+    .footer-logo img {
+        max-width: 15%;
+        height: auto;
+        margin: auto;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+}
+
